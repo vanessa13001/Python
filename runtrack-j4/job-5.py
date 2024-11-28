@@ -15,6 +15,10 @@ def calcul(num1, operator, num2):
     else:
         return print("Erreur : Opérateur invalide")
     
-num1 = float(input("entrez le 1er numero "))
+num1 = int(input("entrez le 1er numero "))
 operator = input("entrez l'opérateur (+, -, *, /, %) ")
-num2 = float(input("entrez le deuxieme numero "))
+num2 = int(input("entrez le deuxieme numero "))
+
+#resultat
+resultat = calcul(10, '+', 5)
+print(resultat)
