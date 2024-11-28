@@ -20,3 +20,4 @@ L_triee = trier_liste(L)
 
 
 print("Liste triée dans l'ordre croissant :", L_triee)
+
