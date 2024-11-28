@@ -13,3 +13,4 @@ def afficher_aliments(type, saison):
 afficher_aliments("fruits", "hiver")
 afficher_aliments("légume", "été")
 afficher_aliments("fruits", "printemps")
+afficher_aliments("fruits", "été")

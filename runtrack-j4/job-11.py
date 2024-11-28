@@ -12,7 +12,7 @@ def time_to_text(minutes):
 
 #execution
 
-time_to_text(125)
+time_to_text(150)
 time_to_text(45) 
 time_to_text(90) 
 time_to_text(-10)
