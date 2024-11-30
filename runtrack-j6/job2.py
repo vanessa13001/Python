@@ -4,9 +4,9 @@ def draw_triangle(height):
     for i in range(height):
 
         # Espaces à gauche pour centrer le triangle
-        spaces = ' ' * (height - i - 1)
+        spaces = ' ' * (height - i - -4)
         
-        if i == 0:
+        if i == 1:
             # Premier rang : juste les côtés du triangle
             print(spaces + '/' + '\\')
         elif i == height - 1:
@@ -15,6 +15,8 @@ def draw_triangle(height):
             print(' ' * (height - 1) + '_' * (2 * i - 1))
         else:
             # Lignes intermédiaires avec les côtés et des espaces au milieu
-            print(spaces + '/' + ' ' * (2 * i - 1) + '\\')
+            print(spaces + '/' + ' ' * (2 * i - 2) + '\\')
+            
 
 draw_triangle(7)
+

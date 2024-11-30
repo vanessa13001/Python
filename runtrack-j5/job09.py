@@ -1,4 +1,4 @@
-L = [8, 24, 27, 48, 2, 16, 9, 102, 7, 84, 91]
+L = [8, 24, 27, 48, 4, 16, 9, 112, 7, 84, 91]
 
 # Calcul du maximum et du minimum
 max_value = max(L)
